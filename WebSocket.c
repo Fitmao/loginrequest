@@ -9,7 +9,7 @@
 #include "WebSocket.h"
 #include <string.h>
 
-char * IPSTR = "120.25.253.99";
+char * IPSTR = "";
 int PORT = 80;
 #define BUFSIZE 1024
 
@@ -61,7 +61,7 @@ void get(char * url, char * data) {
     strcat(str1, "GET ");
     strcat(str1, url);
     strcat(str1, " HTTP/1.1\r\n");
-    strcat(str1, "Host: www.blackdawnx.cn\r\n");
+    strcat(str1, "Host: www.hostname.cn\r\n");
     strcat(str1, "Content-Type: text/html\r\n");
     strcat(str1, "\r\n\r\n");
     

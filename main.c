@@ -12,7 +12,7 @@
 
 int main(int argc, char **argv) {
     
-    if (loginWith("root", "woainilyj7") == LOGIN_SUCCESSFUL) {
+    if (loginWith("root", "") == LOGIN_SUCCESSFUL) {
         printf("登录成功！");
     }
     
